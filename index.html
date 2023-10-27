@@ -8,101 +8,90 @@
     <link rel="stylesheet"  type="text/css" href="./css/main.css">
     <link rel="stylesheet"  type="text/css" href="./css/destination.css">
     
-    <title>Coffee Shop - Home</title>
+    <title>Travel Site Homde</title>
 </head>
 <body>
 <!-- Header Nav Section -->
 <header class="header-section">
     <nav class="nav-section-left">
-        <ul class="nav__list nav-left">
-            <li class="nav__item ">
-                <a href="./index.html" class="nav__link nav-logo"><img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo" class="brand-logo"></a>
-            </li>
-            <li class="nav_item ">
-                <a href="./index.html" class="nav__link"><span class="nav-text">nitro</span></a>
-            </li>
-        </ul>
+            <a href="./index.html" class="nav__link nav-logo"><span class="nav-text">Travel Site</a>
     </nav>
-
     <nav class="nav-section nav-section-right">
         <ul class="nav__list nav-right">
             <li class="nav__item">
-                <a href="./index.html" class="nav__link">ABOUT</a>
+                <a href="./index.html" class="nav__link nav__link--active">Home</a>
             </li>
             <li class="nav__item">
-                <a href="./pages/menu.html" class="nav__link">MENU</a>
+                <a href="./pages/hawaii.html" class="nav__link">Hawaii</a>
             </li>
             <li class="nav__item">
-                <a href="./pages/menu.html" class="nav__link nav__link--active">SHOP NOW</a>
+                <a href="./pages/iceland.html" class="nav__link nav__link">Iceland</a>
+            </li>
+            <li class="nav__item">
+                <a href="./pages/greece.html" class="nav__link nav__link">Greece</a>
             </li>
         </ul>
     </nav>
 </header>
-
 <!-- Intro Section -->
-
 <section class="intro-section">  
 
-<div class="intro-list">
-    <div class="intro-item intro-item-size">
-        <h1 class="intro-title">Nitro Coffee</h1>
-        <p class="intro-para">Coffee is a brewed drink prepared from roasted coffee beans, the seeds from berries of a certain Coffea Species</p>
-        <button class="intro-button btn1">SHOP NOW</button>
+<div class="intro__list">
+    <div class="intro__item intro__item--size">
+        <h1 class="intro__title">Travelling Comes With Endless Discoveries</h1>
+        <p class="intro__para">
+            Don’t let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+        <button class="intro__button btn1">Get Started</button>
     </div>
 
-    <div class="intro-item ">
-        <img src="./assets/images/coffeebeans-hero.png" alt="coffee bag" class="featured-image">
+    <div class="intro__item ">
+        <img src="./assets/Images/hero.png" alt="Hero Image" class="featured__image">
     </div>
 </div>
 
 </section>
 
-<section class="card-container">
-    <article class="card">
-      <img class="card__img" src="https://picsum.photos/seed/11/800" alt="A Random Picture" />
-      <div class="card__content">
-        <h3>Card Title</h3>
-      
-    </article>
-    <article class="card">
-      <img class="card__img" src="https://picsum.photos/seed/11/800" alt="A Random Picture" />
-      <div class="card__content">
-        <h3>Card Title</h3>
-       
-      </div>
-    </article>
-    <article class="card">
-      <img class="card__img" src="https://picsum.photos/seed/11/800" alt="A Random Picture" />
-      <div class="card__content">
-        <h3>Card Title</h3>
-       
-      </div>
-    </article>
+<section class="card__title-section">
+    <h1 class="intro__title">Recommendations</h1>
+</section>
+
+<section class="card__section">
+        <a href="./pages/hawaii.html" class="card card1"><article class="">
+            <div class="card__content">
+            <h3>Hawaii</h3></div>      
+        </article></a>
+        <a href="./pages/iceland.html"  class="card card2"><article class="">
+            <div class="card__content">
+            <h3>Iceland </h3></div>    
+        </article></a>
+        <a href="./pages/greece.html" class="card card3"><article class="">
+            <div class="card__content">
+            <h3>Greece</h3> </div>      
+        </article></a>
   </section>
 
 <!-- Footer Section -->
-<footer class="footer-section" id="footer-id">
+<footer class="footer-section">
     <section class="footer__list">
         <h3 class="footer__title">Contact</h3>
         <p class="footer__sub-title">EMAIL</p>
-        <p class="footer-info">info@travelsite.com</p>
-        
+        <p class="footer__info">info@travelsite.com</p>        
     </section>
 
     <section class="footer__list list--modify">
         <h3  class="footer__title">Hours</h3>
         <div class="footer-h-flex">
         <div class="hours">
-            <p class="footer-info">MONDAY-FRIDAY </p>
-            <p class="footer-info"> 10:00am - 5:00pm</p>
+            <p class="footer__sub-title">MONDAY-FRIDAY </p>
+            <p class="footer__info"> 9:00am - 5:00pm</p>
         </div>
         <div class="hours">
-            <p class="footer-info">SATURDAY </p>
-            <p class="footer-info">10:00am - 5:00pm</p>
+            <p class="footer__sub-title">SATURDAY </p>
+            <p class="footer__info">10:00am - 5:00pm</p>
         </div>
         <div class="hours">
-            <p class="footer-info">SUNDAY </p>
-            <p class="footer-info">Closed</p>
+            <p class="footer__sub-title">SUNDAY </p>
+            <p class="footer__info">Closed</p>
         </div>
    
         </div>
@@ -110,9 +99,9 @@
 
     <section class="footer__list">
         <h3  class="footer__title">Social</h3>
-        <a href="https://www.instagram.com/"><img src="./assets/logos/Instagram-Icon.svg" alt="Instagram"></a>
-        <a href="https://www.facebook.com/"> <img src="./assets/logos/Facebook-Icon.svg" alt="Facebook" ></a>
-        <a href="https://www.instagram.com/"><img src="./assets/logos/Instagram-Icon.svg" alt="Instagram"></a>
+        <a href="https://www.instagram.com/" target="blank" class="social__link"><img src="./assets/Icons/icon-instagram.png" alt="Instagram" class="social__icon"></a>
+        <a href="https://www.facebook.com/" target="blank" class="social__link link--move"> <img src="./assets/Icons/icon-facebook.png" alt="Facebook" class="social__icon "></a>
+        <a href="https://www.instagram.com/" target="blank" class="social__link"><img src="./assets/Icons/icon-twitter.png" alt="Twitter" class="social__icon"></a>
     </section>
 </footer>
 

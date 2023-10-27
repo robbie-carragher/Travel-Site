@@ -1,22 +1,56 @@
 
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana';
+
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 {
+    color: #335576;
+    font-size: 3rem;
+    font-family:'Verdana';
+   
+}
+h2 {
+    font-size: 3rem;
+    font-family:'Verdana';
+    font-weight: 100;
+    
+}
+h3{
+    font-family:'Verdana';
+    font-weight: 100;
+    font-size: 1.5em;
+}
 /* Header Nav Section */
 .header-section {
-    background-color: #fff0ed;
-    padding: 0.5rem 0 0.5rem 1%;
+    background-color: #ffffff;
+    padding: 0.5rem 0 0.5rem 6%;
     margin: -1% 0 0 0;
     display: flex;
     align-items: center;
+}
+.nav-text {
+    color: #335576;
+
 }
 .nav-section {
     display: flex;
 
 }
 .nav-section-right {
-    margin: 1% 0 0 64%;
+    margin: 1% 0 0 55%;
 }
 .nav__item { 
     display: inline-block; 
     margin-right: 2rem;
+    color:#000;
 } 
 .nav__list {
     list-style: none; 
@@ -27,15 +61,56 @@
     text-decoration: none;
 }
 .nav-text {
-    font-size: 36px;
-    font-weight: 100;
-        margin: 0 0 0 -1rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin: 0 0 0 -1rem;
 }
-.nav-link:hover,
-.nav-link--active {
-    color: #5BACC3;
+.nav__link:hover,
+.nav__link--active {
+   border-bottom: solid 3px #DB7A4E;
+   text-decoration: none;
 }
-.brand-logo{
-    margin: -1rem -1rem -1rem 0rem;
+/* Footer Section */
+.footer-section {
+    background-color: #FEFAF5;
+    padding: 1% 17% 5% 16%;
+    display: flex;
+    margin: 0 -40% 0 0;
 }
-/* End Nav Section */
+.footer__list {
+    width: 26%;
+    margin: 0 0 0 2%;
+}
+.footer__title {
+    text-align: left;
+    color: #335576;
+    font-size: 1.06rem;
+    font-weight: 900;
+}
+.footer__sub-title {
+    color:#DB7A4E;
+    font-size: .7rem;
+}
+.footer__info {
+    text-align: left;
+    margin: 0;
+    font-size: .8rem;
+    color: #335576;
+}
+.footer-h-flex {
+    display: flex;
+    flex-direction: row;
+}
+.social__icon{
+    width: 36%;
+}
+.icon--size{
+    width: 3%;
+}
+.social__link{
+    display: inline-block;
+    /* margin:  3% 3% 3% 3%; */
+}
+.link--move{
+    margin: 0 0 0 -6%;
+}
