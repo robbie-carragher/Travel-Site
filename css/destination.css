@@ -3,7 +3,7 @@
     position: absolute;
 } */
 /* Travel Card Section */
-.travel-card__section {
+/* .travel-card__section {
     background-image: url(../assets/Images/hawaii.jpg);
     background-size: cover;
     background-position: center;
@@ -14,16 +14,45 @@
     justify-content: center;
     margin: 0 auto 6% auto;
     padding: 0 10% 0 11%;
-}
+} */
 /* .travel-card__section {
 position: relative;
 } */
-/* .travel-card__section {
+.itinerary-cards-section {
+    background-image: url(../assets/Images/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
-    flex-direction: row;
-    width: 100%;
     justify-content: center;
-    margin: 0 auto 6% auto;
-    padding: 0 10% 0 11%;
-    background-image: url("../assets/Images/hawaii.jpg");
-} */
+    align-items: center; 
+}
+
+.itinerary__card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.itinerary__title {
+    margin-top: 0;
+}
+
+.itinerary__list{
+    list-style: none;
+    padding: 0;
+}
+
+.itinerary__item {
+    margin-bottom: 5px;
+    background: #FEFAF5;
+    padding: 20% 0 0 0;
+}
+.itinerary__card {
+    width: 300px; /* Adjust the width to your preference */
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
