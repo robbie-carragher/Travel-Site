@@ -1,0 +1,23 @@
+/* .card__title-section {
+
+    position: absolute;
+} */
+/* Travel Card Section */
+.travel-card__section {
+    background-image: url(../assets/Images/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 11% 0 11% 0;
+}
+/* .travel-card__section {
+position: relative;
+} */
+.travel-card__section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto 6% auto;
+    padding: 0 10% 0 11%;
+    background-image: url("../assets/Images/hawaii.jpg");
+}
