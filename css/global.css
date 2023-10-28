@@ -36,6 +36,14 @@ h3{
     display: flex;
     align-items: center;
 }
+.header-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* You can set your preferred background color here */
+    z-index: 100; /* Adjust the z-index as needed */
+}
 .nav-text {
     color: #335576;
 
@@ -128,8 +136,9 @@ h3{
     width: 33%;
 }
 .travel__title {
-    position:absolute;
+    position: absolute;
     color: #fff;
+    margin: 8% 0 0 0;
 }
 .travel__title-section {
     margin: 0 0 0 4%;
