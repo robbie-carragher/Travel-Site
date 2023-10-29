@@ -2,15 +2,25 @@
     background-image: url(../assets/Images/hawaii.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 89vh;
+    min-height: 100vh;
     padding: 4% 11% 0 11%;
 }
-.get-started__title{
+@media (max-width: 1024px) {
+    .get-started-section {
+        min-height: 100vh;
+        padding: 4% 4% 0 4%;
+    }
+}
+@media (max-width: 768px) {
+    .get-started-section {
+        padding: 4% 0 0 0;
+    }
+}
+.get-started__title {
     margin: 0% 0 3% 0;
-    padding: 9% 0 0 5%;
+    padding: 3% 0 3% 5%;
     color: #ffffff;
 }
-
 form {
     display: flex;
     flex-wrap: wrap;

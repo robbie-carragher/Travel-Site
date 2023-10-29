@@ -26,6 +26,12 @@
     justify-content: center;
     align-items: center; 
 }
+@media (max-width: 768px) {
+    .article-wrapper {
+        display: block;
+
+    }
+}
 .itinerary__card {
     width: 21%;
     margin: 10px;
@@ -35,6 +41,19 @@
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+@media (max-width: 768px) {
+    .itinerary__card {
+        width: 55%;
+        /* margin: 10px; */
+        padding: 20px;
+        text-align: center;
+        background-color: #ffffff;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 5% auto;
+    }
 }
 .desinations__title{
     margin: 0% 0 3% 0;
