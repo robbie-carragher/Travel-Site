@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    padding: 4% 11% 0 11%;
+    padding: 4% 11% 12% 11%;
 }
 @media (max-width: 1024px) {
     .get-started-section {
