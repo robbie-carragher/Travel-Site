@@ -1,0 +1,56 @@
+.get-started-section {
+    background-image: url(../assets/Images/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 89vh;
+    padding: 4% 11% 0 11%;
+}
+.get-started__title{
+    margin: 0% 0 3% 0;
+    padding: 9% 0 0 5%;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 1.25rem;
+    background-color: #FEFAF5;
+    border-radius: 10px;
+}
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #DB7A4E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #005fa3;
+}

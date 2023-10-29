@@ -5,30 +5,27 @@
     background-image: url(../assets/Images/hawaii.jpg);
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    min-height: 80vh;
+    min-height: 76vh;
 }
 .itinerary-cards-section2 {
     background-image: url(../assets/Images/iceland.jpg);
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    min-height: 80vh;
+    min-height: 76vh;
 }
 .itinerary-cards-section3 {
     background-image: url(../assets/Images/greece.jpg);
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    min-height: 80vh;
+    min-height: 76vh;
 }
 
+.article-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
 .itinerary__card {
     width: 21%;
     margin: 10px;
@@ -39,7 +36,11 @@
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
+.desinations__title{
+    margin: 0% 0 3% 0;
+    padding: 9% 0 0 5%;
+    color: #ffffff;
+}
 .itinerary__title {
     margin-top: -2%;
     border-bottom: solid 2px #000;
@@ -55,11 +56,8 @@
     background: #FEFAF5;
     padding: 6% 0 8% 0;
 }
-/* .travel__title {
-    position: absolute;
-    color: #fff;
-    margin: 8% 0 0 0;
-}
-.travel__title-section {
-    margin: 0 0 0 4%;
-} */
+
+
+
+
+

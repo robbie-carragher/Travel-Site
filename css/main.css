@@ -40,9 +40,10 @@
     background-color: #DB7A4E;
     border: 0;
     padding: 1.5% 7%;
-    font-size: 13px;
+    font-size: 0.875rem;
     border-radius: 1.5rem;
     font-weight: 100;
+    text-decoration: none;
 }
 .landing-border {
     border: solid 2px #000000;
@@ -127,18 +128,18 @@ font-weight: 900;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay color */
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Add a transition effect */
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
 }
 
 .card:hover::before {
-    opacity: 1; /* Show the overlay when hovering */
+    opacity: 1; 
 }
 
-/* Additional styling for the card content */
+
 .card .card__content {
     position: relative;
-    z-index: 1; /* Ensure content is above the overlay */
+    z-index: 1; 
 }
 
