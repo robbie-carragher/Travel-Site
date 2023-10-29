@@ -55,6 +55,20 @@ h3{
 .nav-section-right {
     margin: 1% 0 0 55%;
 }
+@keyframes slide-side {
+    from {
+      opacity: 0;
+      transform: translateX(-50%);
+    }
+    to {
+      opacity:1 ;
+      transform: translateX(0);
+    }
+    }
+    .nav__item  {
+      animation: slide-side 3s;
+    }
+    
 .nav__item { 
     display: inline-block; 
     margin-right: 2rem;
@@ -81,6 +95,21 @@ h3{
 .nav-logo {
     text-decoration: none;   
 }
+
+
+.nav-logo {
+    opacity: 1; /* Initially fully visible */
+    transition: opacity 0.3s ease; /* Add a transition effect */
+}
+
+.nav-logo:hover {
+    opacity: 0.7; /* Reduce opacity by 10% when hovering */
+}
+
+
+
+
+
 /* Footer Section */
 .footer-section {
     background-color: #FEFAF5;
